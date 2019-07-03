@@ -1,0 +1,252 @@
+body{
+    
+    background-image: url(../images/code.jpg);
+    background-color:black;
+    
+ }
+
+ h1{
+  font-size:30px;
+
+ }
+
+ h2{
+    font-size:25px;
+
+ }
+
+
+ 
+
+ 
+
+
+
+
+#header{
+    height:100px;
+    background-color: rgb(43, 53, 54);
+    color: #66FCF1;
+    text-align: right;
+
+}
+
+#header #name{
+    position:relative;
+    top:20px;
+    left:15px;
+    text-align:left;
+    border: solid;
+    border-color: grey;
+    border-radius:10px;
+    padding-left:25px;
+    width:200px;
+    background-color:#1F3833;
+     color:#66FCF1
+    margin-top:25px;
+    vertical-align: middle;
+
+
+}
+#container{
+
+    background-color:white;
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+#content{
+    padding: 25px;
+    line-height: 20px;
+
+}
+
+#nav{
+    
+    text-align: right;
+    color:white;
+    margin-bottom:25px;
+
+
+
+
+}
+.index:hover{
+  color:rgb(233, 219, 219);
+  text-shadow: 2px 2px 2px #66FCF1;
+
+
+}
+
+.contact:hover{
+  color:rgb(233, 219, 219));
+  text-shadow: 2px 2px 2px #66FCF1;
+
+}
+.portfolio:hover{
+  color:rgb(233, 219, 219);
+  text-shadow: 2px 2px 2px #66FCF1;
+
+
+}
+
+.index:visited{
+  color:black;
+}
+.contact:visited{
+  color:black;
+
+}
+.portfolio:visited{
+  color:black;
+}
+
+
+#main{
+    
+    
+
+    
+
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    color: white;
+    text-align: center;
+  }
+
+#headshot{
+    float:left;
+
+
+}
+
+#hangman{
+    width:200px;
+    height:200px;
+    float: left;
+}
+#rpg{
+    width:200px;
+    height:200px;
+    float:right;
+}
+#trivia{
+    width:200px;
+    height:200px;
+    float:left;
+}
+#rutgers{
+    width:200px;
+    height:200px;
+    float:right;
+}
+#rockpaperscissors{
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+
+
+.copyright {
+    text-align:center;
+
+}
+
+
+.grid-container {
+
+    display: grid;
+  
+    grid-template-columns: auto auto;
+  
+    
+  
+    padding: 10px;
+  
+  }
+  
+  .grid-item {
+  
+    background-color: rgba;
+        
+    padding: 20px;
+  
+    font-size: 30px;
+  
+    text-align: center;
+  
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .grid-item p{
+    position:relative;
+    top:-50px;
+    left:150px;
+    background-color:teal;
+    
+    float:left;
+    width:33%;
+    z-index:2;
+    text-size-adjust: 25%;
+
+
+  }
+  
+
+  .grid-item h4{
+
+    width:33%;
+    float:left;
+
+
+  }
+  .grid-item a{
+    background-color:teal;
+    color: black;
+    
+    text-decoration:none;
+
+  }
+
+
+  p.label{
+    border-1px teal;
+    margin-5px;
+    background-color:teal;
+
+  }
+  
+
+  <div class="contact">
+    align:center;
+  <form action="action_page.php">
+
+    <label for="name">First Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+
+
