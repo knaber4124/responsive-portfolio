@@ -165,8 +165,8 @@ p.label-full{
     font-size:20px;
   }
   img{
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
   }
 
   .grid-item a{
@@ -178,9 +178,15 @@ p.label-full{
   width:300px;
   }
 }
+
+
 @Media only screen and (max-width:640px){
   #nav{
     font-size:22px;
+  }
+  img{
+    height:300px;
+    width:300px;
   }
 }
 
